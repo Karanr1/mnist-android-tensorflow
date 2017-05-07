@@ -15,8 +15,8 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        flatDir {
-            dirs "$rootProject.projectDir/aars"
+        maven {
+            url  "http://dl.bintray.com/piasy/maven"
         }
     }
 }

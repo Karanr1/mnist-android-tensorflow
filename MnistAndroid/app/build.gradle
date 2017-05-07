@@ -20,5 +20,5 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
-    compile (name:'tensorflow', ext:'aar')
+    compile 'com.github.piasy:double-tf-android:1.0.0-nightly-125@aar'
 }
